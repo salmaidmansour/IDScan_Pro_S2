@@ -19,16 +19,18 @@ Ce projet est organisé en **microservices** :
 1. 🖥️ **Service de scan** : Implémenté en **Python** avec Flask et Tesseract OCR.  
 2. 🔐 **Authentification 2FA** : Backend en **Spring Boot**, Frontend en **Angular**.  
 
+---
+
 🚀 Fonctionnalités clés
-🔍 Scan des cartes en temps réel : Extraction automatique des données.
-🔐 Authentification double facteur (2FA) : Sécurisation des comptes utilisateurs.
-💻 Interface moderne : Design clair et intuitif.
+- 🔍 Scan des cartes en temps réel : Extraction automatique des données.
+- 🔐 Authentification double facteur (2FA) : Sécurisation des comptes utilisateurs.
+- 💻 Interface moderne : Design clair et intuitif.
 
 🛡️ Technologies utilisées
-Python : Flask, OpenCV, Tesseract OCR
-Spring Boot : Backend robuste pour la gestion des utilisateurs
-Angular : Interface utilisateur moderne
-GitHub : Collaboration et gestion de versions
+- Python : Flask, OpenCV, Tesseract OCR
+- Spring Boot : Backend robuste pour la gestion des utilisateurs
+- Angular : Interface utilisateur moderne
+- GitHub : Collaboration et gestion de versions
 
 ---
 
