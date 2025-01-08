@@ -1,54 +1,49 @@
-# IDScan_Pro_S2
-
-## 🎯 Projet
-**IDScan_Pro_S2** est une application innovante qui permet de :
-- Scanner une carte nationale marocaine.
-- Extraire les données essentielles comme le nom, prénom, date de naissance, numéro CIN, validité, etc.
-- Authentifier les utilisateurs avec une double authentification (2FA).
-
-Le projet est organisé en microservices :
-- **Service de scan et d'extraction des données** : Implémenté avec **Python** et **Flask**.
-- **Authentification double facteur (2FA)** : Backend avec **Spring Boot**, Frontend avec **Angular**.
+# 🆔 **IDScan_Pro_S2**  
+### 🚀 **Une solution innovante pour scanner et extraire des données des cartes nationales marocaines**
 
 ---
 
-## 📽 Démonstration vidéo
-Regardez la démonstration de l'application ici :  
-[![Démonstration vidéo](https://img.youtube.com/vi/placeholder/0.jpg)](C:\Users\PC\Desktop\Recording_CIN_Scan.mp4)  
-*(Téléchargez la vidéo pour voir la démonstration si le lien ne fonctionne pas.)*
+## 🎯 **Projet**
+
+**IDScan_Pro_S2** est une application web puissante qui :  
+- 🖼️ **Scanne les cartes nationales marocaines.**  
+- 🧾 **Extrait des informations clés**, comme :  
+  - **Nom**  
+  - **Prénom**  
+  - **Date de naissance**  
+  - **Numéro CIN**  
+  - **Validité**, etc.  
+- 🔐 **Authentifie les utilisateurs avec une double authentification (2FA).**  
+
+Ce projet est organisé en **microservices** :  
+1. 🖥️ **Service de scan** : Implémenté en **Python** avec Flask et Tesseract OCR.  
+2. 🔐 **Authentification 2FA** : Backend en **Spring Boot**, Frontend en **Angular**.  
 
 ---
 
-## ⚙️ Installation et configuration
+## 📽 **Démonstration vidéo**
 
-### **1. Installation des dépendances pour le service Python**
-Assurez-vous d'avoir installé Python 3.x et Tesseract OCR sur votre machine.
+### Regardez la vidéo de démonstration de l'application ici :  
+<video controls>
+  <source src="uploads/Recording_CIN_Scan.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas les vidéos HTML5.
+</video>
 
-1. Clonez le dépôt :
+---
+
+## ⚙️ **Installation et configuration**
+
+### **1. Prérequis**
+- 🐍 **Python** : Version 3.x  
+- 📦 **pip** : Gestionnaire de paquets Python  
+- 🖼️ **Tesseract OCR** : Installez-le depuis [Tesseract OCR](https://github.com/tesseract-ocr/tesseract).  
+
+---
+
+### **2. Installation pour le service Python**
+Suivez ces étapes pour configurer et exécuter le service de scan :  
+
+1. **Clonez le dépôt GitHub** :  
    ```bash
    git clone https://github.com/salmaidmansour/IDScan_Pro_S2.git
    cd IDScan_Pro_S2
-2. Créez un environnement virtuel :
-
-python -m venv .venv
-source .venv/bin/activate    # Sur macOS/Linux
-.venv\Scripts\activate       # Sur Windows
-
-3.Installez les bibliothèques nécessaires :
-
-pip install -r requirements.txt
-
-4. Assurez-vous que Tesseract est installé sur votre machine. Téléchargez-le depuis Tesseract OCR:  https://github.com/tesseract-ocr/tesseract
-
-5. Lancez le service Flask :
-python app.py
-
-6. Accédez à l'application via votre navigateur :
-http://127.0.0.1:5000
-
-
-
-
-
-
-
