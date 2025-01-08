@@ -47,3 +47,18 @@ Suivez ces étapes pour configurer et exécuter le service de scan :
    ```bash
    git clone https://github.com/salmaidmansour/IDScan_Pro_S2.git
    cd IDScan_Pro_S2
+
+2. **Créez un environnement virtuel Python** :  
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate      # macOS/Linux
+   .venv\Scripts\activate         # Windows
+
+ 3. **Installez les dépendances** :  
+   ```bash
+   pip install -r requirements.txt
+
+ 4. **Lancez le service Flask** :  
+   ```bash
+  python app.py
+
