@@ -24,10 +24,9 @@ Ce projet est organisé en **microservices** :
 ## 📽 **Démonstration vidéo**
 
 ### Regardez la vidéo de démonstration de l'application ici :  
-<video controls>
-  <source src="uploads/Recording_CIN_Scan.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas les vidéos HTML5.
-</video>
+📹 [**Voir la vidéo de démonstration**](https://drive.google.com/file/d/1gfdKeJfwDkK2hvqw44vo5eMU2aRwnLm5/view?usp=sharing)  
+
+*(Cliquez sur le lien pour visualiser la démonstration.)*
 
 ---
 
@@ -47,18 +46,3 @@ Suivez ces étapes pour configurer et exécuter le service de scan :
    ```bash
    git clone https://github.com/salmaidmansour/IDScan_Pro_S2.git
    cd IDScan_Pro_S2
-
-2. **Créez un environnement virtuel Python** :  
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate      # macOS/Linux
-   .venv\Scripts\activate         # Windows
-
- 3. **Installez les dépendances** :  
-   ```bash
-   pip install -r requirements.txt
-
- 4. **Lancez le service Flask** :  
-   ```bash
-  python app.py
-
