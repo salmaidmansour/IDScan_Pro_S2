@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Résultats du Scan</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Résultats du Scan</h1>
+    <table>
+        {% for key, value in data.items() %}
+        <tr>
+            <th>{{ key }}</th>
+            <td>{{ value or "Non trouvé" }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="/">Scanner une autre carte</a>
+</body>
+</html>

@@ -1,0 +1,76 @@
+2025-01-08 18:12:21,879 - INFO - Tesseract version: 5.5.0.20241111
+2025-01-08 18:12:21,881 - INFO - Démarrage de l'application
+2025-01-08 18:12:21,914 - WARNING -  * Debugger is active!
+2025-01-08 18:12:21,923 - INFO -  * Debugger PIN: 136-404-368
+2025-01-08 18:13:15,593 - INFO - Tesseract version: 5.5.0.20241111
+2025-01-08 18:13:15,595 - INFO - Démarrage de l'application
+2025-01-08 18:13:15,628 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 18:13:15,628 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-08 18:13:15,629 - INFO -  * Restarting with stat
+2025-01-08 18:13:16,139 - INFO - Tesseract version: 5.5.0.20241111
+2025-01-08 18:13:16,141 - INFO - Démarrage de l'application
+2025-01-08 18:13:16,158 - WARNING -  * Debugger is active!
+2025-01-08 18:13:16,163 - INFO -  * Debugger PIN: 136-404-368
+2025-01-08 18:13:27,115 - INFO - 127.0.0.1 - - [08/Jan/2025 18:13:27] "GET / HTTP/1.1" 200 -
+2025-01-08 18:13:34,163 - INFO - Nouvelle requête d'upload reçue
+2025-01-08 18:13:34,165 - INFO - Traitement du fichier: cin3.jpg
+2025-01-08 18:13:34,166 - DEBUG - Fichier sauvegardé: uploads\cin3.jpg
+2025-01-08 18:13:34,167 - INFO - Début de l'extraction des données: uploads\cin3.jpg
+2025-01-08 18:13:34,167 - INFO - Début du prétraitement de l'image: uploads\cin3.jpg
+2025-01-08 18:13:34,194 - DEBUG - Image de debug sauvegardée: debug_images\original_20250108_181334.png
+2025-01-08 18:13:34,200 - DEBUG - Image de debug sauvegardée: debug_images\resized_20250108_181334.png
+2025-01-08 18:13:34,205 - DEBUG - Image de debug sauvegardée: debug_images\gray_20250108_181334.png
+2025-01-08 18:13:34,217 - DEBUG - Image de debug sauvegardée: debug_images\contrast_20250108_181334.png
+2025-01-08 18:13:34,328 - DEBUG - Image de debug sauvegardée: debug_images\denoised_20250108_181334.png
+2025-01-08 18:13:34,335 - DEBUG - Image de debug sauvegardée: debug_images\binary_20250108_181334.png
+2025-01-08 18:13:34,335 - INFO - Prétraitement de l'image terminé avec succès
+2025-01-08 18:13:34,336 - DEBUG - Tentative d'extraction du texte en français...
+2025-01-08 18:13:34,368 - DEBUG - ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\PC\\AppData\\Local\\Temp\\tess_9q1g02wu_input.PNG', 'C:\\Users\\PC\\AppData\\Local\\Temp\\tess_9q1g02wu', '-l', 'fra', '--oem', '3', '--psm', '6', 'txt']
+2025-01-08 18:13:34,809 - DEBUG - Texte français extrait: vone ‘:
+Ë P RS sAm
+-— 2 © :
+b p
+
+2025-01-08 18:13:34,809 - DEBUG - Tentative d'extraction du texte en arabe...
+2025-01-08 18:13:34,813 - DEBUG - ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\PC\\AppData\\Local\\Temp\\tess_mm0xnkzm_input.PNG', 'C:\\Users\\PC\\AppData\\Local\\Temp\\tess_mm0xnkzm', '-l', 'ara', '--oem', '3', '--psm', '6', 'txt']
+2025-01-08 18:13:35,161 - INFO - Extraction des données terminée
+2025-01-08 18:13:35,162 - INFO - Début de l'analyse des champs
+2025-01-08 18:13:35,168 - WARNING - Aucune donnée n'a été extraite du texte
+2025-01-08 18:13:35,169 - ERROR - Erreur lors de l'analyse des champs: Aucune donnée n'a été extraite
+2025-01-08 18:13:35,169 - ERROR - Erreur lors du traitement: Aucune donnée n'a été extraite
+2025-01-08 18:13:35,172 - INFO - 127.0.0.1 - - [08/Jan/2025 18:13:35] "POST /upload HTTP/1.1" 200 -
+2025-01-08 18:13:38,050 - INFO - 127.0.0.1 - - [08/Jan/2025 18:13:38] "GET / HTTP/1.1" 200 -
+2025-01-08 18:13:45,565 - INFO - Nouvelle requête d'upload reçue
+2025-01-08 18:13:45,567 - INFO - Traitement du fichier: R.jpg
+2025-01-08 18:13:45,570 - DEBUG - Fichier sauvegardé: uploads\R.jpg
+2025-01-08 18:13:45,570 - INFO - Début de l'extraction des données: uploads\R.jpg
+2025-01-08 18:13:45,571 - INFO - Début du prétraitement de l'image: uploads\R.jpg
+2025-01-08 18:13:45,645 - DEBUG - Image de debug sauvegardée: debug_images\original_20250108_181345.png
+2025-01-08 18:13:45,698 - DEBUG - Image de debug sauvegardée: debug_images\resized_20250108_181345.png
+2025-01-08 18:13:45,716 - DEBUG - Image de debug sauvegardée: debug_images\gray_20250108_181345.png
+2025-01-08 18:13:45,743 - DEBUG - Image de debug sauvegardée: debug_images\contrast_20250108_181345.png
+2025-01-08 18:13:46,140 - DEBUG - Image de debug sauvegardée: debug_images\denoised_20250108_181346.png
+2025-01-08 18:13:46,147 - DEBUG - Image de debug sauvegardée: debug_images\binary_20250108_181346.png
+2025-01-08 18:13:46,148 - INFO - Prétraitement de l'image terminé avec succès
+2025-01-08 18:13:46,148 - DEBUG - Tentative d'extraction du texte en français...
+2025-01-08 18:13:46,173 - DEBUG - ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\PC\\AppData\\Local\\Temp\\tess_gu04i624_input.PNG', 'C:\\Users\\PC\\AppData\\Local\\Temp\\tess_gu04i624', '-l', 'fra', '--oem', '3', '--psm', '6', 'txt']
+2025-01-08 18:13:46,852 - DEBUG - Texte français extrait: : Œ — ce ; 2 z ÿ
+“Écane Hoe FOSRNTITE - - 25 e m h RR Es en t 1E
+100 … 208 L SU RR PIE/RS AN E 2 . ï
+ue 10” RR OO e N
+u à = VN :
+mC 0, … 1 1E RS SEN | ; =
+sbée x ;H‘{,æ» Cn LUE T E es se À = Ëà«
+P e ur < 16 00000 - A MS ù sc e
+
+2025-01-08 18:13:46,852 - DEBUG - Tentative d'extraction du texte en arabe...
+2025-01-08 18:13:46,872 - DEBUG - ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\PC\\AppData\\Local\\Temp\\tess_6c61zv4j_input.PNG', 'C:\\Users\\PC\\AppData\\Local\\Temp\\tess_6c61zv4j', '-l', 'ara', '--oem', '3', '--psm', '6', 'txt']
+2025-01-08 18:13:47,628 - INFO - Extraction des données terminée
+2025-01-08 18:13:47,628 - INFO - Début de l'analyse des champs
+2025-01-08 18:13:47,629 - WARNING - Aucune donnée n'a été extraite du texte
+2025-01-08 18:13:47,629 - ERROR - Erreur lors de l'analyse des champs: Aucune donnée n'a été extraite
+2025-01-08 18:13:47,629 - ERROR - Erreur lors du traitement: Aucune donnée n'a été extraite
+2025-01-08 18:13:47,631 - INFO - 127.0.0.1 - - [08/Jan/2025 18:13:47] "POST /upload HTTP/1.1" 200 -
+2025-01-08 18:54:05,827 - INFO -  * Detected change in 'C:\\Users\\PC\\Desktop\\scanner_cin_py\\app.py', reloading
+2025-01-08 18:54:06,058 - INFO -  * Restarting with stat
