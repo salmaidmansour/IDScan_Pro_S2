@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/scanner_cin_py.iml" filepath="$PROJECT_DIR$/.idea/scanner_cin_py.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/IDScan_Pro_S2-main.iml" filepath="$PROJECT_DIR$/.idea/IDScan_Pro_S2-main.iml" />
+>>>>>>> 9669ce4 (Add Python scanner functionality)
     </modules>
   </component>
 </project>

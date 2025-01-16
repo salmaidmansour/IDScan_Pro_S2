@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="Black">
     <option name="sdkName" value="Python 3.11 (scanner_cin_py)" />
   </component>
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (deepface-master)" project-jdk-type="Python SDK" />
+>>>>>>> 9669ce4 (Add Python scanner functionality)
 </project>
